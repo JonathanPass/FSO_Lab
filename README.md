@@ -1,5 +1,10 @@
 # FSO_Lab
 
+![Under Construction](https://media.tenor.com/MRCIli40TYoAAAAj/under-construction90s-90s.gif)
+![Under Construction](https://media.tenor.com/MRCIli40TYoAAAAj/under-construction90s-90s.gif)
+![Under Construction](https://media.tenor.com/MRCIli40TYoAAAAj/under-construction90s-90s.gif)
+![Under Construction](https://media.tenor.com/MRCIli40TYoAAAAj/under-construction90s-90s.gif)
+
 Welcome to the Full Stack Observability Home Lab (FSO_Lab)! This repository is designed to help you learn and practice full stack observability concepts.
 
 ## Table of Contents
