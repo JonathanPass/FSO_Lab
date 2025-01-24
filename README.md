@@ -9,14 +9,14 @@ Welcome to the Full Stack Observability Home Lab (FSO_Lab)! This repository is d
 
 ## Table of Contents
 
-- [Introduction](#introduction)
 - [Features](#features)
 - [Getting Started](#getting-started)
 - [Prerequisites](#prerequisites)
-- [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
 - [License](#license)
+- [Workflow](#workflow)
+
 
 ## Introduction
 
@@ -35,28 +35,9 @@ Follow these instructions to set up and run the FSO_Lab on your local machine.
 
 ## Prerequisites
 
-- Docker
-- Docker Compose
-- Node.js
-- npm or yarn
+- Git
+- Ansible
 
-## Installation
-
-1. Clone the repository:
-    ```sh
-    git clone https://github.com/yourusername/FSO_Lab.git
-    cd FSO_Lab
-    ```
-
-2. Install dependencies:
-    ```sh
-    npm install
-    ```
-
-3. Start the lab environment:
-    ```sh
-    docker-compose up
-    ```
 
 ## Usage
 
@@ -69,3 +50,7 @@ Contributions are welcome! Please read the CONTRIBUTING.md file for guidelines o
 ## License
 
 This project is licensed under the MIT License. See the LICENSE file for details.
+
+## Workflow
+
+All changes will be made via Git. There is a self-hosted runner on the Nuc that pulls changes and will run an Ansible playbook to deploy the updates. The Nuc acts as the bastion host, running Grafana and InfluxDB, and deploying the Ansible roles for Grafana, Telegraf, Prometheus, and InfluxDB.
